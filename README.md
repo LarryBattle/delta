@@ -50,10 +50,10 @@ By default, delta restructures the git output slightly to make the hunk markers 
 ## Features
 |                                                | delta | git | diff-so-fancy | github/gitlab |
 |------------------------------------------------|-------|-----|---------------|---------------|
-| language syntax highlighting                   | ✅    | ❌  | ❌            | ✅             |
-| within-line insertion/deletion detection       | ✅    | ❌  | ✅            | ✅             |
-| multiple insertion/deletions detected per line | ✅    | ❌  | ❌            | ✅             |
-| matching of unequal numbers of changed lines   | ✅    | ❌  | ❌            | ❌             |
+| language syntax highlighting                   | &#10004;    | ❌  | ❌            | &#10004;             |
+| within-line insertion/deletion detection       | &#10004;    | ❌  | &#10004;            | &#10004;             |
+| multiple insertion/deletions detected per line | &#10004;    | ❌  | ❌            | &#10004;             |
+| matching of unequal numbers of changed lines   | &#10004;    | ❌  | ❌            | ❌             |
 
 In addition, delta handles traditional unified diff output.
 
